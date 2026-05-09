@@ -1,0 +1,12 @@
+<h2>Set The Rightmost Unset Bit4436</h2>
+<img src='https://img.shields.io/badge/Difficulty-Unknown-brightgreen' alt='Difficulty: Unknown' />
+<hr>
+<p><span style="font-size: 18px;">Given a non-negative number <strong>n </strong>. The problem is to set the rightmost unset bit in the binary representation of <strong>n</strong>.</span></p>
+<p><strong><span style="font-size: 18px;">Examples :</span></strong></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>n = 6</span>
+<span style="font-size: 18px;"><strong>Output: </strong>7</span>
+<span style="font-size: 18px;"><strong>Explanation: </strong>The binary representation of 6 is 110. After setting right most bit it becomes 111 which is 7.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>n = 15</span>
+<span style="font-size: 18px;"><strong>Output: </strong>31</span>
+<span style="font-size: 18px;"><strong>Explanation: </strong>The binary representation of 15 is 01111. After setting right most bit it becomes 11111 which is 31.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ n ≤ 10<sup>9</sup></span></p>
