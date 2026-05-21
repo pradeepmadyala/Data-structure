@@ -1,0 +1,16 @@
+class Solution {
+    public int lcm(int a, int b) {
+        // code here
+         int x = a;
+         int y = b;
+       while (b != 0) {
+            int res = a % b;
+                 a = b;
+                 b = res;
+           }
+             int gdc =  a;
+            
+            int LCM = (x * y)/gdc ;
+            return LCM;
+    }
+}
